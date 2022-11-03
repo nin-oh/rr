@@ -1,6 +1,7 @@
 let nbr1 =prompt(10);
 let nbr2=prompt(20);
-if(nbr1<nbr2)
-{console.log(nbr2);}
-if(nbr1>nbr2)
-{console.log(nbr1);}
+let nbr3=prompt(-1);
+let prod=nbr1*nbr2*nbr3;
+if(prod>=0)
+{alert("le signe du produit +" );}
+else { alert("le signe du produit -" ); }
