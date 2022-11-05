@@ -1,21 +1,22 @@
-let nbr1 =prompt(10);
-let nbr2=prompt(20);
-let nbr3=prompt(-1);
-if(nbr1>nbr2 && nbr1>nbr3)
+let x = prompt();
+
+let y = prompt();
+
+let z = prompt();
+
+let w = prompt();
+
+let b = prompt();
+
+let tab = [x,y,z,w,b];
+
+let max = tab[0];
+
+for(let i = 0; i < 5 ; i++)
 {
-    if(nbr2>nbr3)
-    {alert(nbr1);alert(nbr2);alert(nbr3);}
-    else alert(nbr1);alert(nbr3);alert(nbr2);
+    if(Number(tab[i]) > max){
+        max = tab[i];
+    }
 }
-else if(nbr2>nbr1 && nbr2>nbr3)
-{
-    if(nbr1>nbr3)
-    {alert(nbr2);alert(nbr1);alert(nbr3);}
-    else alert(nbr2);alert(nbr3);alert(nbr1);
-}
-else if(nbr3>nbr2 && nbr3>nbr1)
-{
-    if(nbr2>nbr1)
-    {alert(nbr3);alert(nbr2);alert(nbr1);}
-    else alert(nbr2);alert(nbr1);alert(nbr3);
-}
+
+alert(max);
