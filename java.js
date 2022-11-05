@@ -1,12 +1,8 @@
 
-
-tab=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
-for(let i = 0; i < 16 ; i++)
-{
-    if(Number(tab[i])%3==0 && Number(tab[i])%5!=0){
-       alert("multiple de trois");
-    }
-    else if(Number(tab[i])%5==0 &&  Number(tab[i])%3!=0){ alert("multiple de cinq")}
-     else if(Number(tab[i])%5!=0 && Number(tab[i])%3!=0){ alert(tab[i]);}
+let i=0;
+let j=0;
+for(i=1;i<4;i++)
+{for(j=0;j<i;j++)
+{console.log("*");}
+console.log("\n");
 }
-
